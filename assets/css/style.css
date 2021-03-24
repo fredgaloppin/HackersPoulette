@@ -41,9 +41,23 @@ header {
   padding: 0rem 1.4rem;
 }
 
+.asterix {
+  font-size: 2.5rem;
+}
+
 .navlogo {
   width: 100px;
   margin-left: calc(50% - 97px);
+}
+
+.inline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.centered {
+  margin-left: calc(50% - 47px);
 }
 
 fieldset {
@@ -687,7 +701,6 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  border: 1px solid #33C3F0;
   color: #222;
   background-color: #15c5bdff;
   -webkit-transition: background-color 0.2s;
@@ -880,6 +893,7 @@ textarea {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   resize: vertical;
+  width: 69%;
 }
 
 input[type="email"]:focus,

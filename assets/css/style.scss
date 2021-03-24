@@ -64,12 +64,21 @@ html {
     height: 4rem;
     padding: 0rem 1.4rem;
   }
+  .asterix{
+    font-size: 2.5rem;
+  }
   .navlogo{
     width: 100px;
     margin-left: calc(50% - 97px);
     // .logo {
     //   width: 50px;
     //   background-image: url('../img/')
+    }
+    .inline{
+      display: inline-flex;
+    }
+    .centered{
+      margin-left:calc(50% - 47px) ;
     }
     fieldset {
         background-color: $primary-color;
@@ -735,7 +744,7 @@ html {
   input[type="submit"].button-primary,
   input[type="reset"].button-primary,
   input[type="button"].button-primary {
-    border: 1px solid #33C3F0;
+    // border: 1px solid #33C3F0;
     color: $font-color;
     background-color: $border-color;
     -webkit-transition: background-color 0.2s;
@@ -928,6 +937,7 @@ html {
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     resize: vertical;
+    width: 69%;
   }
   
   input[type="email"]:focus,
