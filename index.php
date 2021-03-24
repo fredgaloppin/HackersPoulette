@@ -1,8 +1,10 @@
 <?php include_once "assets/php/validation.php";?>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hackers Poulette</title>
 <link rel="stylesheet" href="assets/css/style.css">
 
 <!-- link for jquery style -->
@@ -20,7 +22,6 @@
 <!-- link to languages po files -->
 <!-- <link rel="gettext" type="application/x-po" href="languages/en/LC_MESSAGES/en.po" /> -->
 <script type="text/javascript" src="assets/js/Gettext.js"></script>
-<title>Hackers Poulette</title>
 </head>
     <body>
         <div class='container'>
