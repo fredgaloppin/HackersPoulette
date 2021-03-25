@@ -1,4 +1,6 @@
 <?php
+	require("assets/PHPMailer/src/PHPMailer.php");
+	require("assets/PHPMailer/src/SMTP.php");
 		// define variables and set to empty values
 		$firstnameErr = $lastnameErr = $emailErr = $genderErr = $countryErr = "";
 		$firstName = $lastName = $email = $gender = $messageInput = $country = $subjectInput = "";
@@ -56,7 +58,7 @@
 	if ($country) {
 	   echo htmlentities($_POST['choiceCountry'], ENT_QUOTES, "UTF-8");
 	} else {
-		$countryErr = "Pick a country is required";
+		$countryErr = "Picked country is required";
 	  exit; 
 	}
 
@@ -69,12 +71,12 @@
 	  return $data;
 	}
 
-	echo $firstName; echo '<br>';
-	echo $lastName; echo '<br>';
-	echo $gender; echo '<br>';
-	echo $email; echo '<br>';
-	echo $country; echo '<br>';
-	echo $subjectInput; echo '<br>';
-	echo $messageInput; 
+	// echo $firstName; echo '<br>';
+	// echo $lastName; echo '<br>';
+	// echo $gender; echo '<br>';
+	// echo $email; echo '<br>';
+	// echo $country; echo '<br>';
+	// echo $subjectInput; echo '<br>';
+	// echo $messageInput; 
 
 ?>
