@@ -81,9 +81,9 @@ html {
       margin-left:calc(50% - 47px) ;
     }
     fieldset {
-        background-color: $primary-color;
+        background-color: rgba(20,20,20,0.65);
         border-color: $border-color;
-        width: 360px;
+        
         padding-left: 2rem;
         // box-shadow: 10px 10px 17px $border-color;
         margin: 0;
@@ -93,7 +93,7 @@ html {
         background-color: black;
         border-color: $border-color;
         padding: 8px 10px;
-        margin-left: 33%;
+        margin-left: 97px;
         // box-shadow: 7px 7px 17px $border-color;
       }
       input {
