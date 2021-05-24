@@ -19,8 +19,6 @@ body {
 }
 
 #logo {
-  background: url("../img/hackers-poulette-logo4.png") transparent;
-  background-size: cover;
   height: 100px;
   width: 100px;
   /* top: -25%; */
