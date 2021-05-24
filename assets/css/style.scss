@@ -91,7 +91,7 @@ html {
         background-color: black;
         border-color: $border-color;
         padding: 8px 10px;
-        margin-left: 97px;
+        margin-left: calc(50% - 67.4px);
         // box-shadow: 7px 7px 17px $border-color;
       }
       input {
