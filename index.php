@@ -22,12 +22,10 @@
             <header>
                 <button class="openbtn" >☰ </button>
                     
-                   <img id="logo" alt="logo hackers poulette" src="/assets/img/hackers-poulette-logo4.png">
-                
-                
+                  
             </header>
             <div class='row'>
-            
+            <img id="logo" alt="logo hackers poulette" src="/assets/img/hackers-poulette-logo4.png">
                 <form  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                     <fieldset>
                     <legend>Contact Form</legend>
