@@ -21,8 +21,8 @@
         <div class='container'>
             <header>
                 <button class="openbtn" >☰ </button>
-            
-                    <a class="navlogo" href="#"> <div id="logo" alt="logo hackers poulette"></div></a> 
+                    
+                   <img id="logo" alt="logo hackers poulette" src="/assets/img/hackers-poulette-logo4.png">
                 
                 
             </header>
