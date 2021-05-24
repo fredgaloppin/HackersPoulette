@@ -25,7 +25,9 @@
                   
             </header>
             <div class='row'>
-            <img id="logo" alt="logo hackers poulette" src="/assets/img/hackers-poulette-logo4.png">
+                <img id="logo" alt="logo hackers poulette" src="/assets/img/hackers-poulette-logo4.png">
+            </div>
+            <div class='row'>
                 <form  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                     <fieldset>
                     <legend>Contact Form</legend>
