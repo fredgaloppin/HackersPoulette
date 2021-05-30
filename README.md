@@ -1,8 +1,10 @@
-# HackersPoulette
+## HackersPoulette
 
-https://hackerspoulettebecode.herokuapp.com/
+[contact Form](https://hackerspoulettebecode.herokuapp.com/)
 
-Hackers Poulette
+### note: As my repo is public, i didn't let my real password, then it doesn't send a mail.
+
+### Hackers Poulette
 
     Type of challenge: consolidation, SOLO
     Repository: hackers-poulette
@@ -14,7 +16,7 @@ Hackers Poulette
 CAUTION: This project will use PHP. And we didn't talk about a GitHub Page. Maybe there is a reason.
 Missions objectives
 
-At the end of this challenge you should have improved your:
+### At the end of this challenge you should have improved your:
 
     semantical HTML
     accessibility in HTML
@@ -25,11 +27,11 @@ At the end of this challenge you should have improved your:
     Project planning
     Mock-up creation
 
-You should also be able to :
+### You should also be able to :
 
     display errors
 
-The mission
+### The mission
 
 The company Hackers Poulette ™ sells Raspberry Pi accessory kits to build your own. They want to allow their users to contact their support team. Your mission is to create a fully-functioning online "contact support" form, in PHP. It must display a contact form and process the received answer (sanitize, validate, answer the user).
 
